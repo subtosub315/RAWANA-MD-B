@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined? "hyEBiZ6T#SzybNPn16Ne53ywFJ3b7BTiowT6PtaZ0UT883QAaXMY":process.env.SESSION_ID,
-MONGODB: process.env.MONGODB || "mongodb://mongo:QINiTVkNxaMudtBYyZNobTBpCszWbTVW@crossover.proxy.rlwy.net:29555",
+MONGODB: process.env.MONGODB || "mongodb://mongo:fOWciohPEXvfhgujYmvidEtIJTrbGRRX@ballast.proxy.rlwy.net:41342",
 GEMINI_API_KEY: process.env.GEMINI_API_KEY || "AIzaSyDzyQ7tnQkquWX8bc1y9TE0auCHbC_QQO8",
 tokenm: process.env.GITHUB_TOKEN || "false",
 repo: process.env.GITHUB_REPO || "RAWANA-MD",
