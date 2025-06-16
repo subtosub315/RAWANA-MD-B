@@ -5,8 +5,8 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined? "g6d2hRDY#dZVenGWYaM77TA0bMm1rHrFbF9tOU2I-ib8IUH_2pb0":process.env.SESSION_ID,
-MONGODB: process.env.MONGODB || "mongodb://mongo:fOWciohPEXvfhgujYmvidEtIJTrbGRRX@ballast.proxy.rlwy.net:41342",
+SESSION_ID: process.env.SESSION_ID === undefined? "siMwRDTD#5_WKdRFvBDn_nNaRdLWS6YgVzdAkWXNcg6IsKqreh0k":process.env.SESSION_ID,
+MONGODB: process.env.MONGODB || "mongodb://mongo:tYnFKXhcIPcKTDFWMNfLHlvmDqblxJQk@gondola.proxy.rlwy.net:46137",
 GEMINI_API_KEY: process.env.GEMINI_API_KEY || "AIzaSyDzyQ7tnQkquWX8bc1y9TE0auCHbC_QQO8",
 tokenm: process.env.GITHUB_TOKEN || "false",
 repo: process.env.GITHUB_REPO || "RAWANA-MD",
